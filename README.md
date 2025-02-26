@@ -55,6 +55,16 @@ YOLOv12 surpasses all popular real-time object detectors in accuracy with compet
 | [YOLO12l](https://github.com/sunsmarterjie/yolov12/releases/download/v1.0/yolov12l.pt) | 640                   | 53.7                 | 6.77                            | 26.4               | 88.9              |
 | [YOLO12x](https://github.com/sunsmarterjie/yolov12/releases/download/v1.0/yolov12x.pt) | 640                   | 55.2                 | 11.79                           | 59.1               | 199.0             |
 
+## Demo (Windows CUDA 12.6 Python 3.12 PyTorch 2.6)
+
+- [Installing uv](https://docs.astral.sh/uv/getting-started/installation/)
+- [Windows wheels of flash-attention - Hugging Face LiuXuefeng lldacing](https://huggingface.co/lldacing/flash-attention-windows-wheel)
+- [Using uv with PyTorch | uv](https://docs.astral.sh/uv/guides/integration/pytorch/)
+
+```bash
+uv run app.py
+```
+
 ## Installation
 ```
 wget https://github.com/Dao-AILab/flash-attention/releases/download/v2.7.3/flash_attn-2.7.3+cu11torch2.2cxx11abiFALSE-cp311-cp311-linux_x86_64.whl
